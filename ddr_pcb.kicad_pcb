@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 194)
     (zones 0)
     (modules 17)
@@ -128,18 +128,6 @@
     (add_net "Net-(C1-Pad1)")
     (add_net "Net-(C1-Pad2)")
     (add_net "Net-(J5-Pad1)")
-    (add_net "Net-(J5-Pad4)")
-    (add_net "Net-(U1-Pad1)")
-    (add_net "Net-(U1-Pad10)")
-    (add_net "Net-(U1-Pad14)")
-    (add_net "Net-(U1-Pad15)")
-    (add_net "Net-(U1-Pad2)")
-    (add_net "Net-(U1-Pad22)")
-    (add_net "Net-(U1-Pad24)")
-    (add_net "Net-(U1-Pad3)")
-    (add_net "Net-(U1-Pad5)")
-    (add_net "Net-(U1-Pad6)")
-    (add_net "Net-(U1-Pad8)")
   )
 
   (module Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal (layer F.Cu) (tedit 5AE50CD5) (tstamp 618E4EDD)
@@ -887,6 +875,7 @@
     (pad 1 thru_hole rect (at -13.97 7.62 270) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (gr_poly (pts (xy 121.92 142.24) (xy 66.04 142.24) (xy 66.04 67.31) (xy 121.92 67.31)) (layer F.Fab) (width 0.1))
   (gr_text None (at 118.11 78.74) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify left))
   )
