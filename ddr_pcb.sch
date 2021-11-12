@@ -310,16 +310,14 @@ $EndComp
 $Comp
 L Device:CP C1
 U 1 1 6198070A
-P 4400 3350
-F 0 "C1" V 4655 3350 50  0000 C CNN
-F 1 "CP" V 4564 3350 50  0000 C CNN
-F 2 "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal" H 4438 3200 50  0001 C CNN
-F 3 "~" H 4400 3350 50  0001 C CNN
-	1    4400 3350
+P 4400 3050
+F 0 "C1" V 4655 3050 50  0000 C CNN
+F 1 "CP" V 4564 3050 50  0000 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal" H 4438 2900 50  0001 C CNN
+F 3 "~" H 4400 3050 50  0001 C CNN
+	1    4400 3050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4550 3350 4700 3350
 $Comp
 L Connector:Screw_Terminal_01x04 J5
 U 1 1 61985061
@@ -340,10 +338,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2800 4350 2800
 Wire Wire Line
-	4700 3350 4700 2900
-Wire Wire Line
 	4700 2900 4950 2900
-Connection ~ 4700 3350
 Wire Wire Line
 	4150 2700 4950 2700
 Wire Wire Line
@@ -406,4 +401,13 @@ Wire Wire Line
 Connection ~ 1900 4200
 Wire Wire Line
 	1900 4200 1900 4400
+Wire Wire Line
+	4250 3050 4250 3350
+Wire Wire Line
+	4550 3050 4700 3050
+Wire Wire Line
+	4700 3050 4700 2900
+Wire Wire Line
+	4250 3350 4700 3350
+Connection ~ 4250 3350
 $EndSCHEMATC
