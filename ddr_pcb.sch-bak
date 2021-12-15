@@ -206,7 +206,7 @@ U 1 1 619609B8
 P 2150 3650
 F 0 "A6" V 2046 3650 50  0000 C CNN
 F 1 "R_Small" V 2045 3650 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 3650 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 3650 50  0001 C CNN
 F 3 "~" H 2150 3650 50  0001 C CNN
 	1    2150 3650
 	0    1    1    0   
@@ -219,7 +219,7 @@ U 1 1 61961C32
 P 2150 3850
 F 0 "A7" V 2046 3850 50  0000 C CNN
 F 1 "R_Small" V 2045 3850 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 3850 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 3850 50  0001 C CNN
 F 3 "~" H 2150 3850 50  0001 C CNN
 	1    2150 3850
 	0    1    1    0   
@@ -232,7 +232,7 @@ U 1 1 619628FE
 P 2150 4050
 F 0 "A8" V 2046 4050 50  0000 C CNN
 F 1 "R_Small" V 2045 4050 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4050 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4050 50  0001 C CNN
 F 3 "~" H 2150 4050 50  0001 C CNN
 	1    2150 4050
 	0    1    1    0   
@@ -245,7 +245,7 @@ U 1 1 6196365C
 P 2150 4200
 F 0 "A9" V 2046 4200 50  0000 C CNN
 F 1 "R_Small" V 2045 4200 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4200 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4200 50  0001 C CNN
 F 3 "~" H 2150 4200 50  0001 C CNN
 	1    2150 4200
 	0    1    1    0   
@@ -256,7 +256,7 @@ U 1 1 6197C632
 P 2150 4400
 F 0 "A10" V 2046 4400 50  0000 C CNN
 F 1 "R_Small" V 2045 4400 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4400 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4400 50  0001 C CNN
 F 3 "~" H 2150 4400 50  0001 C CNN
 	1    2150 4400
 	0    1    1    0   
@@ -267,7 +267,7 @@ U 1 1 6197D7DD
 P 2150 4550
 F 0 "A0" V 2046 4550 50  0000 C CNN
 F 1 "R_Small" V 2045 4550 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4550 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4550 50  0001 C CNN
 F 3 "~" H 2150 4550 50  0001 C CNN
 	1    2150 4550
 	0    1    1    0   
@@ -278,7 +278,7 @@ U 1 1 6197E680
 P 2150 4700
 F 0 "A1" V 2046 4700 50  0000 C CNN
 F 1 "R_Small" V 2045 4700 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4700 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4700 50  0001 C CNN
 F 3 "~" H 2150 4700 50  0001 C CNN
 	1    2150 4700
 	0    1    1    0   
@@ -289,7 +289,7 @@ U 1 1 6197F095
 P 2150 4850
 F 0 "A2" V 2046 4850 50  0000 C CNN
 F 1 "R_Small" V 2045 4850 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4850 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 4850 50  0001 C CNN
 F 3 "~" H 2150 4850 50  0001 C CNN
 	1    2150 4850
 	0    1    1    0   
@@ -300,7 +300,7 @@ U 1 1 6197F87E
 P 2150 5000
 F 0 "A3" V 2046 5000 50  0000 C CNN
 F 1 "R_Small" V 2045 5000 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 5000 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2150 5000 50  0001 C CNN
 F 3 "~" H 2150 5000 50  0001 C CNN
 	1    2150 5000
 	0    1    1    0   
@@ -332,7 +332,7 @@ U 1 1 61A07599
 P 4450 2800
 F 0 "220ohm1" V 4254 2800 50  0000 C CNN
 F 1 "R_Small" V 4345 2800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4450 2800 50  0001 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4450 2800 50  0001 C CNN
 F 3 "~" H 4450 2800 50  0001 C CNN
 	1    4450 2800
 	0    1    1    0   
