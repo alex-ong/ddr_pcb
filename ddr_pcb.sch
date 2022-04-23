@@ -54,10 +54,6 @@ Connection ~ 4450 3550
 Wire Wire Line
 	4450 3550 4650 3550
 Wire Wire Line
-	4000 3650 4200 3650
-Wire Wire Line
-	4200 3650 4200 4700
-Wire Wire Line
 	4000 4150 4000 4400
 $Comp
 L Connector:Screw_Terminal_01x06 J4
@@ -73,12 +69,9 @@ $EndComp
 Wire Wire Line
 	4000 3550 4450 3550
 Wire Wire Line
-	4200 3650 4600 3650
-Wire Wire Line
 	4600 3650 4600 4000
 Wire Wire Line
 	4600 4000 4900 4000
-Connection ~ 4200 3650
 Wire Wire Line
 	4550 3750 4550 4200
 Wire Wire Line
@@ -312,22 +305,16 @@ $EndComp
 Wire Wire Line
 	4150 3150 4000 3150
 Wire Wire Line
-	4000 3850 4050 3850
-Wire Wire Line
-	4050 3850 4050 2800
-Wire Wire Line
-	4050 2800 4350 2800
-Wire Wire Line
 	4150 2700 4150 3150
 $Comp
 L Device:R_Small 220ohm1
 U 1 1 61A07599
-P 4450 2800
-F 0 "220ohm1" V 4254 2800 50  0000 C CNN
-F 1 "R_Small" V 4345 2800 50  0000 C CNN
-F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4450 2800 50  0001 C CNN
-F 3 "~" H 4450 2800 50  0001 C CNN
-	1    4450 2800
+P 4400 3250
+F 0 "220ohm1" V 4204 3250 50  0000 C CNN
+F 1 "R_Small" V 4295 3250 50  0000 C CNN
+F 2 "ddr_pcb:R_Axial_DDRPAD_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 4400 3250 50  0001 C CNN
+F 3 "~" H 4400 3250 50  0001 C CNN
+	1    4400 3250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -375,8 +362,6 @@ Wire Wire Line
 	1900 4200 1900 4400
 Wire Wire Line
 	4550 3050 4700 3050
-Wire Wire Line
-	4550 2800 4600 2800
 Wire Wire Line
 	4600 2800 4600 2900
 Wire Wire Line
@@ -430,7 +415,6 @@ NoConn ~ 2600 3150
 NoConn ~ 2600 3050
 NoConn ~ 4000 3050
 NoConn ~ 4000 3250
-NoConn ~ 4000 4050
 Wire Wire Line
 	4000 3750 4150 3750
 Connection ~ 4150 3750
@@ -441,11 +425,26 @@ Wire Wire Line
 Wire Wire Line
 	2250 4550 4150 4550
 Wire Wire Line
-	4000 3950 4100 3950
-Wire Wire Line
-	4100 3950 4100 3250
-Wire Wire Line
-	4100 3250 4950 3250
+	4100 3250 4300 3250
 Wire Wire Line
 	4950 3250 4950 3100
+Wire Wire Line
+	4200 3650 4600 3650
+Wire Wire Line
+	4000 3650 4200 3650
+Connection ~ 4200 3650
+Wire Wire Line
+	4200 3650 4200 4700
+Wire Wire Line
+	4000 4050 4100 4050
+Wire Wire Line
+	4100 4050 4100 3250
+Wire Wire Line
+	4050 2800 4050 3850
+Wire Wire Line
+	4050 3850 4000 3850
+Wire Wire Line
+	4500 3250 4950 3250
+Wire Wire Line
+	4050 2800 4600 2800
 $EndSCHEMATC
